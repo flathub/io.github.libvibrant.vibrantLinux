@@ -27,8 +27,8 @@ modules:
     buildsystem: cmake-ninja
     sources:
       - type: archive
-        url: https://gitlab.com/Scrumplex/vibrant/-/archive/1.0.3/vibrant-1.0.3.tar.gz
-        sha256: ef910212a312d03138b884fda4ed2a63f09150c00a4422aac3833df75e834d96
+        url: https://github.com/libvibrant/libvibrant/archive/refs/tags/1.0.3.tar.gz
+        sha256: 7878481511484c4afbbdab2aa610892ca331ffbdf643f912b409061cc65ccce9
   - name: vibrantLinux
     buildsystem: qmake
     build-options:
@@ -38,5 +38,5 @@ modules:
       - QMAKE_LIBDIR=/app/lib
     sources:
       - type: archive
-        url: https://github.com/libvibrant/vibrantLinux/archive/refs/tags/v2.1.7.tar.gz
-        sha256: 3cb1f72a0fe6ea381ed516205f755c7068347baebc2f1ca06cff015702f6b5f9
+        url: https://github.com/libvibrant/vibrantLinux/archive/refs/tags/v2.1.8.tar.gz
+        sha256: 8d1789819344478f8b77dba95e3814e36f464401a5012e85d3da5ebc2e2d058e
