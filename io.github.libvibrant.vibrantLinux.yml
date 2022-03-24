@@ -38,5 +38,5 @@ modules:
       - QMAKE_LIBDIR=/app/lib
     sources:
       - type: archive
-        url: https://github.com/libvibrant/vibrantLinux/archive/refs/tags/v2.1.8.tar.gz
-        sha256: 8d1789819344478f8b77dba95e3814e36f464401a5012e85d3da5ebc2e2d058e
+        url: https://github.com/libvibrant/vibrantLinux/archive/refs/tags/v2.1.9.tar.gz
+        sha256: 93f8cf1da0dcc49b323094a684c43f628c94df67307b8efe4809af1c33ac6a55
