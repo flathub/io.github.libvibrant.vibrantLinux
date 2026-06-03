@@ -1,0 +1,39 @@
+From c29a80bba8e0989e8f600a42446e7fbe2dceb697 Mon Sep 17 00:00:00 2001
+From: Sabri Ünal <yakushabb@gmail.com>
+Date: Wed, 3 Jun 2026 23:23:40 +0300
+Subject: [PATCH] Fix appdata paper cuts
+
+Signed-off-by: Sabri Ünal <yakushabb@gmail.com>
+---
+ assets/io.github.libvibrant.vibrantLinux.appdata.xml | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+diff --git a/assets/io.github.libvibrant.vibrantLinux.appdata.xml b/assets/io.github.libvibrant.vibrantLinux.appdata.xml
+index 1e45259..c4044dd 100644
+--- a/assets/io.github.libvibrant.vibrantLinux.appdata.xml
++++ b/assets/io.github.libvibrant.vibrantLinux.appdata.xml
+@@ -2,7 +2,9 @@
+ <component type="desktop-application">
+     <id>io.github.libvibrant.vibrantLinux</id>
+     <name>vibrantLinux</name>
+-    <developer_name>libvibrant Team</developer_name>
++    <developer id="io.github.libvibrant">
++        <name>libvibrant Team</name>
++    </developer>
+     <summary>System utility to adjust color saturation of X11 screens</summary>
+     <metadata_license>CC0-1.0</metadata_license>
+     <project_license>MIT</project_license>
+@@ -23,8 +25,10 @@
+     </categories>
+     <url type="homepage">https://github.com/libvibrant/vibrantLinux</url>
+     <url type="bugtracker">https://github.com/libvibrant/vibrantLinux/issues</url>
++    <url type="vcs-browser">https://github.com/libvibrant/vibrantLinux</url>
+     <update_contact>contact@scrumplex.net</update_contact>
+     <releases>
++        <release date="2024-04-15" version="2.2.0"/>
+         <release date="2022-03-20" version="2.1.8">
+             <description>
+                 <ul>
+--
+libgit2 1.7.2
+
